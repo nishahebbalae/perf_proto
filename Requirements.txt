@@ -1,0 +1,52 @@
+In Management Portal, we are currently representing the following metrics as server level metrics:
+CPU metrics
+1.       CPU Load (1 minute average)
+2.       CPU Load (5 minute average)
+3.       CPU Load (15 minute average)
+
+Memory
+1.       RAM Usage
+2.       Swap Usage
+3.       Used Memory
+4.       Free Memory
+5.       Free Swap Memory
+
+Disk Information
+1.       Disk used space
+
+Database Information
+1.       MySQL Version
+2.       MySQL Configuration File Location
+3.       MySQL Error Log Location
+4.       MySQL General Log Size
+5.       Server IP Address
+6.       Server Farm ID
+7.       Server Location
+
+Cron
+1.       Cron jobs list
+2.       Cron Frequency
+
+Software Information
+
+1.       No of PHP Errors
+2.       No of PHP Error Log Lines
+3.       PHP Error Log Size
+4.       No of PHP Error Log Warnings
+5.       PHP INI File Location
+6.       PHP Memory Allocated
+7.       PHP Version
+8.       No of PHP Modules
+9.       Server IP Address
+10.      Timestamp
+
+Additional data requirements which were asked to be represented are listed below:
+1.       1 minute average, 5 minute average and 15 minutes average of memory utilization
+2.       1 minute average, 5 minute average and 15 minutes average of disk utilization
+3       Database table sizes on the application server
+4.       Database table sizes on the database server
+5.       Slow query logs on the cache databases
+6.       No of Apache process
+7.       No of process in each database
+8.       Query count for last 1 hour, 2 hours, 3 hours
+9.       Last 10 lines of PHP Error logs (for every 5 minutes)
